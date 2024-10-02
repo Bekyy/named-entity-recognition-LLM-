@@ -21,6 +21,10 @@
 - Locations: Tokens that match known locations like ('Addis Ababa', 'ለቡ', 'ለቡ መዳህኒዓለም', 'መገናኛ', 'ቦሌ', 'ሜክሲኮ', 'ብስራተ', 'ገብርኤል', 'ገርጂ', 'ኢምፔሪያል', 'ህንፃ', 'ፕላዛ', '4ኪሎ', 'ፎቅ', 'ላፍቶ', 'ሞል', 'ስላሴ')  names are labeled as I-LOC.
 - General Tokens: All other tokens are labeled as O (outside any entities).
 
+* Fine Tune NER Model: fine-tune a Named Entity Recognition (NER) model to extract key entities, such as products, prices,phone numbers and locations, from Amharic Telegram messages. 
+- The model was fine-tuned using pre-labeled data in CoNLL format 
+- a pre-trained model i.e.  bert-base-multilingual-cased, distilbert-base-uncased and xlm-roberta-base.
+
 ## Prerequisites
 * Python 3.x: Ensure Python is installed on your system.
 * Virtual Environment: Recommended for managing project dependencies.
