@@ -29,15 +29,16 @@
 * Python 3.x: Ensure Python is installed on your system.
 * Virtual Environment: Recommended for managing project dependencies.
 
-**Installation**
+## Installation
 
 1. Create a virtual environment:
-On macOS/Linux:
+
+**On macOS/Linux:**
 
 ```python -m venv venv```
 ```source venv/bin/activate```
 
-on windows:
+**on windows:**
 ```python -m venv venv ```
 ```venv\Scripts\activate ```
 
@@ -45,7 +46,7 @@ on windows:
 ``` pip install -r requirements.txt```
 
 
-**Contributing**
+## Contribution
 
 Contributions are welcome!
 
